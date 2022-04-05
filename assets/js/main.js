@@ -5,7 +5,7 @@ $("#genBtn").click(function() {
         'slow');
 });
 
-// Results
+// Results-----------------------
 $('#form').on('submit', e => {
     e.preventDefault();
 
@@ -20,3 +20,5 @@ $('#form').on('submit', e => {
         appendTo($results);
     });
 });
+
+/// 
